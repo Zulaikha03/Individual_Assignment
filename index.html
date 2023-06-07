@@ -1,0 +1,126 @@
+<html>
+
+<head>
+<title> IKA'S PERSONAL WEBSITE </title>
+<link rel="stylesheet" type="text/css"
+href="ASSET/CSS/mystyle.css">
+
+<link rel="icon" type="image/x-icon" href="ASSET\IMAGES\icon.jpg"> 
+</head>
+
+<body>
+<a name="TOP_PAGE"></a>
+
+<!----MY LOGO (HOME NAV)---->
+<a href="file:///C:/Users/ika/Documents/IMD311/IMD311_INDIVIDUAL%20ASSIGNMENT/index.html#"><img src="ASSET/IMAGES/ika_logo.jpg" align="left" width="200px"></a>
+<!----MY LOGO END (HOME NAV)---->
+
+
+<!----HEADER---->
+<header>
+	<h1>WELCOME TO MY PERSONAL WEBSITE₊˚⊹♡ </h1> 
+</header>
+<!----HEADER END---->
+
+
+<!----NAVIGATION BAR---->
+<div class="topnav">
+	<a href="index.html">HOME</a>
+	<a href="about_me.html">ABOUT ME</a>
+	<a href="my_resume.html">EDUCATION</a>
+	<a href="work_experience.html">WORK EXPERIENCE</a>
+	<a href="gallery.html">GALLERY</a>
+</div>
+<br><br><br><br>
+<!----NAVIGATION BAR END---->
+
+
+<!----QUOTES---->
+<div class="quotes">
+	<u> TODAY'S QUOTES: </u>
+	<h3><i> BAD CHOICES MAKE GOOD STORIES✧˖° </i></h3>
+</div>
+<!----QUOTES END---->
+
+<br>
+
+<!----CLOCK---->
+<center>
+	<div id="clock"></div>
+</center>
+
+<script type="text/javascript">
+	setInterval(displayclock, 500); 
+	function displayclock () {
+		var time = new Date();
+		var hrs = time.getHours();
+		var min = time.getMinutes();
+		var sec = time.getSeconds();
+
+		if (hrs > 12) {
+		hrs = hrs - 12;
+}
+		if (hrs == 0) {
+		hrs = 12;
+}
+		if (hrs < 10) {
+		hrs = '0' + hrs;
+}
+		if (min < 10) {
+		min = '0' + min;
+}
+		if (sec < 10) {
+		sec = '0' + sec;
+}
+
+		document.getElementById('clock').innerHTML = hrs + ':' + min + ':' + sec;
+}
+
+
+</script>
+<!----CLOCK END---->
+
+<br>
+
+<!----MY PIC---->
+<center>
+	<table border="1" align="center" style="width:300px;height400px;"<tr>
+	<td rowspan="5" align="center" "width:300px;height:400px;"> <img src="ASSET/IMAGES/me.jpeg" width="500px"></a></td>
+	<table border="1" align="center"> 
+</center>
+<!----MY PIC END---->
+
+<br><br><br><br><br><br>
+
+
+<!----MY SOC MED---->
+<hr>
+<marquee behavior="scroll" direction="left" scrollamount="12"><h2>⇩⇩⇩ YOU CAN FIND ME HERE ⇩⇩⇩<h2></marquee>
+<hr>
+
+<br><br><br>
+
+<a href="https://www.instagram.com/ikx.shx/" target="_blank"><img src="ASSET/IMAGES/ig_logo.png" align="center" width="150px" height="150px"><a/>
+
+<a href="https://www.tiktok.com/@ikx.shx?is_from_webapp=1&sender_device=pc" target="_blank"><img src="ASSET/IMAGES/tiktok_logo.png" align="center" width="150px" height="150px"><a/>
+
+<a href="https://wa.link/cxj4yj" target="_blank"><img src="ASSET/IMAGES/whatsapp_logo.png" align="center" width="150px" height="150px"><a/>
+<!----MY SOC MED END---->
+
+<br><br><br><br><br><br>
+
+<a href="#TOP_PAGE">
+<img
+<img src="ASSET/IMAGES/arrow_up.png" height="50px" width="50px" align="right"></a>
+
+<br><br>
+
+<!---FOOTER--->
+<footer>
+<p>I( ｡ •̀ ᴖ •́ ｡)--© Zulaikha 2023</p>
+</footer>
+<!---FOOTER END--->
+
+</body>
+
+</html>
