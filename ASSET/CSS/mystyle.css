@@ -1,0 +1,121 @@
+body {
+	background-color: #F3CFC6;
+  	font-family: Verdana
+}
+
+h1 {
+	color: #285380;
+	background-color: white;
+	padding: 80px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 50px
+	
+}
+
+h2 {
+	color: #285380;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 40px
+}
+
+p {
+	font-family: monoscope;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	background-color: #A95C68;
+}
+
+h4 {
+	padding: 20px;
+	background-color: #E37383;
+}
+
+
+/* FOR HOME PAGE */
+#clock {
+
+	color: white;
+	font-family: Georgia; 
+	width: 900px;
+	margin: 50px;
+	text-align: center;
+	font-size: 90px;
+}	
+
+.topnav{
+	overflow:hidden;
+	background-color:#A95C68;
+}
+
+.topnav a {
+  	float: left;
+  	color: #F3CFC6;
+  	text-align: justify;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+}
+
+.topnav a:hover {
+  	background-color: #F3CFC6;
+  	color: #285380;
+}
+
+.topnav a.active {
+ 	background-color: #F3CFC6;
+  	color: red;
+}
+
+.quotes {
+	width: 100%;
+	position: left;
+	text-align: center;
+	bottom: 15%;
+	color: #A95C68;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.quotes h3 {
+
+	color: #285380;
+	font-family: Gill Sans; 	
+	font-size: 50px;
+	margin-top: 50px;
+	font-weight: 200;
+}
+	
+*/ABOUT ME PAGE */
+
+my_video {
+
+	width: 400px;
+	height: 400px;
+}
+		
+
+
+*/EDUCATION PAGE*/
+
+/* COLUMN */* {
+  box-sizing: border-box;}
+.column {
+  float: left;  width: 50%;
+  padding: 10px;}
+.btn {  border: none;
+  outline: none;  padding: 12px 16px;
+  background-color: #C48189;  cursor: pointer;
+}
+.btn:hover {  background-color: #9BA4B5;
+}
+.btn.active {  background-color: #C48189;
+  color: white;}
+.h5 {
+  font-family: Verdana;  text-align: center;
+}
+	
+	
